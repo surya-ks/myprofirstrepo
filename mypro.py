@@ -4,6 +4,6 @@ def surya(name):
         print("heloo")
     else:
         print("not a user")
-surya(name=ss)
+surya(name=(input()))
 
 
