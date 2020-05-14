@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f117cc8c-1320-4aff-945c-8cefe4b19c49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/mypro.py" beforeDir="false" afterPath="$PROJECT_DIR$/mypro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +44,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -54,7 +55,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.mypro">
+  <component name="RunManager" selected="Python.pratice">
     <configuration name="gitfile" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,8 +98,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pratice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="newpratice udemy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pratice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pratice" />
         <item itemvalue="Python.mypro" />
       </list>
     </recent_temporary>
@@ -126,6 +149,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="454" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589290467106">
@@ -144,26 +168,30 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="658" y="126" width="666" height="861" key="#mypro/72.27.1848.1053@72.27.1848.1053" timestamp="1589290482703" />
-    <state width="1825" height="275" key="GridCell.Tab.0.bottom" timestamp="1589293107124">
+    <state width="1825" height="275" key="GridCell.Tab.0.bottom" timestamp="1589462818591">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1825" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1589293107124" />
-    <state width="1825" height="275" key="GridCell.Tab.0.center" timestamp="1589293107124">
+    <state width="1825" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1589462818591" />
+    <state width="1825" height="275" key="GridCell.Tab.0.center" timestamp="1589462818590">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1825" height="275" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1589293107124" />
-    <state width="1825" height="275" key="GridCell.Tab.0.left" timestamp="1589293107123">
+    <state width="1825" height="275" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1589462818590" />
+    <state width="1825" height="275" key="GridCell.Tab.0.left" timestamp="1589462818590">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1825" height="275" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1589293107123" />
-    <state width="1825" height="275" key="GridCell.Tab.0.right" timestamp="1589293107124">
+    <state width="1825" height="275" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1589462818590" />
+    <state width="1825" height="275" key="GridCell.Tab.0.right" timestamp="1589462818591">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1825" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1589293107124" />
+    <state width="1825" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1589462818591" />
     <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1588826406352">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1588826406352" />
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1589462711046">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1589462711046" />
     <state x="767" y="468" width="448" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589286605169">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>

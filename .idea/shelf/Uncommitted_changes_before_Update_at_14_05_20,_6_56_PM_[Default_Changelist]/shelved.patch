@@ -1,0 +1,142 @@
+Index: mypro.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>print(\"enter your name to check if youre a valid user\")\ndef surya(name):\n    if name == \"ss\":\n        print(\"heloo\")\n    else:\n        print(\"not a user\")\nsurya(name=(input()))\n\n\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- mypro.py	(revision 957cc2383bfb800e0b8997f0afad4162c4ea5404)
++++ mypro.py	(date 1589370483418)
+@@ -1,10 +1,14 @@
+ print("enter your name to check if youre a valid user")
+-def surya(name):
++def username(name):
+     if name == "ss":
+         print("heloo")
+     else:
+         print("not a user")
++    return(username(name))
+ surya(name=(input()))
++usernames=username()
++
++
+ 
+ 
+ 
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"f117cc8c-1320-4aff-945c-8cefe4b19c49\" name=\"Default Changelist\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/mypro.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/mypro.py\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Python Script\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1bZ3okXcxoehz2Tf9EqJsAMIM4A\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"preferences.keymap\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Python.mypro\">\n    <configuration name=\"gitfile\" type=\"PythonConfigurationType\" factoryName=\"Python\">\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"$PROJECT_DIR$/venv/bin/python\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <module name=\"\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/gitfile.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"mypro\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"$PROJECT_DIR$/venv/bin/python\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <module name=\"\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/mypro.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Python.mypro\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SvnConfiguration\">\n    <configuration />\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"f117cc8c-1320-4aff-945c-8cefe4b19c49\" name=\"Default Changelist\" comment=\"\" />\n      <created>1588825966369</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1588825966369</updated>\n    </task>\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"454\" y=\"211\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog\" timestamp=\"1589290467106\">\n      <screen x=\"72\" y=\"27\" width=\"1848\" height=\"1053\" />\n    </state>\n    <state x=\"454\" y=\"211\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1053@72.27.1848.1053\" timestamp=\"1589290467106\" />\n    <state x=\"704\" y=\"355\" width=\"574\" height=\"403\" key=\"#com.intellij.fileTypes.FileTypeChooser\" timestamp=\"1588826062368\">\n      <screen x=\"72\" y=\"27\" width=\"1848\" height=\"1053\" />\n    </state>\n    <state x=\"704\" y=\"355\" width=\"574\" height=\"403\" key=\"#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053@72.27.1848.1053\" timestamp=\"1588826062368\" />\n    <state x=\"658\" y=\"126\" width=\"666\" height=\"861\" key=\"#gitfile\" timestamp=\"1589287335183\">\n      <screen x=\"72\" y=\"27\" width=\"1848\" height=\"1053\" />\n    </state>\n    <state x=\"658\" y=\"126\" width=\"666\" height=\"861\" key=\"#gitfile/72.27.1848.1053@72.27.1848.1053\" timestamp=\"1589287335183\" />\n    <state x=\"658\" y=\"126\" width=\"666\" height=\"861\" key=\"#mypro\" timestamp=\"1589290482703\">\n      <screen x=\"72\" y=\"27\" width=\"1848\" height=\"1053\" />\n    </state>\n    <state x=\"658\" y=\"126\" width=\"666\" height=\"861\" key=\"#mypro/72.27.1848.1053@72.27.1848.1053\" timestamp=\"1589290482703\" />\n    <state width=\"1825\" height=\"275\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1589293107124\">\n      <screen x=\"72\" y=\"27\" width=\"1848\" height=\"1053\" />\n    </state>\n    <state width=\"1825\" height=\"275\" key=\"GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053\" timestamp=\"1589293107124\" />\n    <state width=\"1825\" height=\"275\" key=\"GridCell.Tab.0.center\" timestamp=\"1589293107124\">\n      <screen x=\"72\" y=\"27\" width=\"1848\" height=\"1053\" />\n    </state>\n    <state width=\"1825\" height=\"275\" key=\"GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053\" timestamp=\"1589293107124\" />\n    <state width=\"1825\" height=\"275\" key=\"GridCell.Tab.0.left\" timestamp=\"1589293107123\">\n      <screen x=\"72\" y=\"27\" width=\"1848\" height=\"1053\" />\n    </state>\n    <state width=\"1825\" height=\"275\" key=\"GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053\" timestamp=\"1589293107123\" />\n    <state width=\"1825\" height=\"275\" key=\"GridCell.Tab.0.right\" timestamp=\"1589293107124\">\n      <screen x=\"72\" y=\"27\" width=\"1848\" height=\"1053\" />\n    </state>\n    <state width=\"1825\" height=\"275\" key=\"GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053\" timestamp=\"1589293107124\" />\n    <state x=\"485\" y=\"188\" width=\"1022\" height=\"737\" key=\"SettingsEditor\" timestamp=\"1588826406352\">\n      <screen x=\"72\" y=\"27\" width=\"1848\" height=\"1053\" />\n    </state>\n    <state x=\"485\" y=\"188\" width=\"1022\" height=\"737\" key=\"SettingsEditor/72.27.1848.1053@72.27.1848.1053\" timestamp=\"1588826406352\" />\n    <state x=\"767\" y=\"468\" width=\"448\" height=\"177\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1589286605169\">\n      <screen x=\"72\" y=\"27\" width=\"1848\" height=\"1053\" />\n    </state>\n    <state x=\"767\" y=\"468\" width=\"448\" height=\"177\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1848.1053@72.27.1848.1053\" timestamp=\"1589286605169\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 957cc2383bfb800e0b8997f0afad4162c4ea5404)
++++ .idea/workspace.xml	(date 1589462711872)
+@@ -20,6 +20,7 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="f117cc8c-1320-4aff-945c-8cefe4b19c49" name="Default Changelist" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/mypro.py" beforeDir="false" afterPath="$PROJECT_DIR$/mypro.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -44,6 +45,7 @@
+     <option name="showLibraryContents" value="true" />
+   </component>
+   <component name="PropertiesComponent">
++    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+@@ -54,7 +56,7 @@
+       <recent name="$PROJECT_DIR$" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Python.mypro">
++  <component name="RunManager" selected="Python.pratice">
+     <configuration name="gitfile" type="PythonConfigurationType" factoryName="Python">
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -89,6 +91,27 @@
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+       <module name="" />
+       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mypro.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <configuration name="pratice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="newpratice udemy" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pratice.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -99,6 +122,7 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Python.pratice" />
+         <item itemvalue="Python.mypro" />
+       </list>
+     </recent_temporary>
+@@ -126,6 +150,7 @@
+         </entry>
+       </map>
+     </option>
++    <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+   <component name="WindowStateProjectService">
+     <state x="454" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589290467106">
+@@ -144,26 +169,30 @@
+       <screen x="72" y="27" width="1848" height="1053" />
+     </state>
+     <state x="658" y="126" width="666" height="861" key="#mypro/72.27.1848.1053@72.27.1848.1053" timestamp="1589290482703" />
+-    <state width="1825" height="275" key="GridCell.Tab.0.bottom" timestamp="1589293107124">
++    <state width="1825" height="275" key="GridCell.Tab.0.bottom" timestamp="1589460623687">
+       <screen x="72" y="27" width="1848" height="1053" />
+     </state>
+-    <state width="1825" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1589293107124" />
+-    <state width="1825" height="275" key="GridCell.Tab.0.center" timestamp="1589293107124">
++    <state width="1825" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1589460623687" />
++    <state width="1825" height="275" key="GridCell.Tab.0.center" timestamp="1589460623687">
+       <screen x="72" y="27" width="1848" height="1053" />
+     </state>
+-    <state width="1825" height="275" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1589293107124" />
+-    <state width="1825" height="275" key="GridCell.Tab.0.left" timestamp="1589293107123">
++    <state width="1825" height="275" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1589460623687" />
++    <state width="1825" height="275" key="GridCell.Tab.0.left" timestamp="1589460623686">
+       <screen x="72" y="27" width="1848" height="1053" />
+     </state>
+-    <state width="1825" height="275" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1589293107123" />
+-    <state width="1825" height="275" key="GridCell.Tab.0.right" timestamp="1589293107124">
++    <state width="1825" height="275" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1589460623686" />
++    <state width="1825" height="275" key="GridCell.Tab.0.right" timestamp="1589460623687">
+       <screen x="72" y="27" width="1848" height="1053" />
+     </state>
+-    <state width="1825" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1589293107124" />
++    <state width="1825" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1589460623687" />
+     <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1588826406352">
+       <screen x="72" y="27" width="1848" height="1053" />
+     </state>
+     <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1588826406352" />
++    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1589462711046">
++      <screen x="72" y="27" width="1848" height="1053" />
++    </state>
++    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1589462711046" />
+     <state x="767" y="468" width="448" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589286605169">
+       <screen x="72" y="27" width="1848" height="1053" />
+     </state>
